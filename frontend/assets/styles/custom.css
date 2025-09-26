@@ -17,6 +17,7 @@
 	--reverse-text-color: #ffffff;
 	--card-bg: rgba(255, 255, 255, 0.85);
 	--team-role-shadow-rgb: 0, 0, 0;
+	--footer-copyright-color: var(--reverse-text-color);
 }
 [data-theme='random'] {
 	--toggle-icon-color: var(--text-color);
@@ -27,6 +28,7 @@
 	--reverse-text-color: #ffffff;
 	--card-bg: rgba(255, 255, 255, 0.1);
 	--team-role-shadow-rgb: 255, 255, 255;
+	--footer-copyright-color: var(--text-color);
 }
 
 /* Theme */
@@ -55,6 +57,9 @@
 }
 .team-role-developer {
 	--team-role-color: var(--color-team-role-developer);
+}
+.team-role-github-triage {
+	--team-role-color: var(--color-team-role-github-triage);
 }
 .team-role-moderator {
 	--team-role-color: var(--color-team-role-moderator);
@@ -92,4 +97,8 @@
 }
 .team-role span {
 	color: var(--team-role-color);
+}
+/* Footer section */
+.footer-copyright {
+	color: var(--footer-copyright-color);
 }
